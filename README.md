@@ -7,10 +7,12 @@
 2. read project structure
 3. start implement project by your self
 4. ask a question in issue
-5. add an extra feature to project like new agent and new structur
+5. add an extra feature to project like a new agent and new structure
 6. fork the project and create a folder by your id in /student_result
 7. send fork request
 8. :)
+
+![cover](https://github.com/maze1377/CPP-object_oriented-tutorial-with-project/tree/master/ScreenShot/cover.jpg?raw=true)
 
 ## Purpose ##
 
@@ -71,19 +73,19 @@ usually unreliable.
 | [agent_name] move X Y | set moving  distention point  |
 | [agent_name] attack [agent_name2] | first agent attack second agent if it's possible |
 | [agent_name] stop | stop moving to distention point   |
-| [agent_name] work [structur_source] [structur_destination] | agent start working in that place  |
+| [agent_name] work [structure_source] [structure_destination] | agent start working in that place  |
 | train [agent_name] [agent_type] X Y | create new Soldier or Peasant at point |
-| build  [structur_name] [structur_type] X Y | create new Farm  or Town_Hall   at point |
+| build  [structure_name] [structure_type] X Y | create new Farm  or Town_Hall at point |
 | go | go to the target(x,y) that is set by (move X Y) or update |
 | status | show status of all object in the map |
-| open map |  ready to show all map  by show command  |
+| open map |  ready to show all map by show command  |
 | open [agent_name] | ready to show console map around the agent by show command |
-| open [structur_name] | ready to show console map around the structur by show command |
+| open [structure_name] | ready to show console map around the structure by show command |
 | open health | show health of every agent by show command |
-| close [agent_name] | remove  console map around the agent when  show command enter |
-| close [structur_name] | remove  console map around the structur when show command enter |
-| close map | remove  console map  when  show command enter |
-| close health | remove  health of every agent when  show command enter |
+| close [agent_name] | remove console map around the agent when  show command enter |
+| close [structure_name] | remove console map around the structure when show command enter |
+| close map | remove console map  when  show command enter |
+| close health | remove health of every agent when  show command enter |
 | zoom [1 - 10] | map zoom setting |
 | pan  X Y | set map start point  |
 | size  X | set map start point  |
