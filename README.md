@@ -9,7 +9,7 @@
 4. ask a question in issue
 5. add an extra feature to project like a new agent and new structure
 6. fork the project and create a folder by your id in /student_result
-7. send fork request
+7. send pull request
 8. :)
 
 ![cover](https://github.com/maze1377/CPP-object_oriented-tutorial-with-project/blob/master/ScreenShot/cover.jpg)
