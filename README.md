@@ -12,7 +12,7 @@
 7. send fork request
 8. :)
 
-![cover](https://github.com/maze1377/CPP-object_oriented-tutorial-with-project/tree/master/ScreenShot/cover.jpg?raw=true)
+![cover](https://github.com/maze1377/CPP-object_oriented-tutorial-with-project/blob/master/ScreenShot/cover.jpg)
 
 ## Purpose ##
 
