@@ -1,4 +1,4 @@
-﻿C++ OOB (object_oriented) tutorial with project
+﻿C++ OOP (object_oriented) tutorial with project
 ==============
 
 ## How to use ##
