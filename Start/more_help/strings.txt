@@ -1,0 +1,154 @@
+// Text strings used in the Project . 
+// Output is produced only in a .cpp file - no header files may contain output statements.
+// A gap between two output operators marks where a variable or function would appear.
+// A '+' marks where another string would appear in concatenation.
+// Constructor and destructor message output is always the last thing done in the function (after all initialization and cleanup).
+
+// Model output
+cout << "Model constructed" << endl;
+cout << "Model destructed" << endl;
+
+
+// strings used in Error objects thrown by Model
+"Structure not found!"
+"Agent not found!"
+
+
+// Controller output
+cout << "Controller constructed" << endl;
+cout << "\nTime " <<  << ": Enter command: ";
+cout << "Done" << endl;
+cout << "Controller destructed" << endl;
+
+
+// strings used in Error objects thrown by Controller
+"Unrecognized command!"
+"Invalid name for new object!"
+"Agent is not alive!"
+"Expected an integer!"
+"Expected a double!"
+"View is already open!"
+"View is not open!"
+
+// The factory functions produce no output.
+// strings used in Error objects thrown by Agent_factory:
+"Trying to create agent of unknown type!"
+// strings used in Error objects thrown by Structure_factory:
+"Trying to create structure of unknown type!"
+
+// Sim_object output
+cout << "Sim_object " <<  << " constructed" << endl;
+cout << "Sim_object " <<  << " destructed" << endl;
+
+// Structure output
+cout << "Structure " <<  << " constructed" << endl;
+cout << "Structure " <<  << " destructed" << endl;
+// Structure::describe output
+cout <<  << " at " <<  << endl;
+
+// Farm output
+cout << "Farm " <<  << " constructed" << endl;
+cout << "Farm " <<  << " destructed" << endl;
+// Farm::update output
+cout << "Farm " <<  << " now has " << << endl;
+// Farm::describe output
+cout << "Farm ";
+cout << "   Food available: " <<  << endl;
+
+
+// Town_Hall output
+cout << "Town_Hall " <<  << " constructed" << endl;
+cout << "Town_Hall " <<  << " destructed" << endl;
+// Town_Hall::describe output
+cout << "Town_Hall ";
+cout << "   Contains " <<  << endl;
+
+// Agent output 
+cout << "Agent " <<  << " constructed" << endl;
+cout << "Agent " <<  << " destructed" << endl;
+// Agent::update output
+cout <<  << ": I'm there!"<< endl;
+cout <<  << ": step..." << endl;
+// Agent::move_to output
+cout <<  << ": I'm on the way" << endl;
+cout <<  << ": I'm already there" << endl;
+// Agent::stop output
+cout <<  << ": I'm stopped" << endl;
+// Agent::lose_health output
+cout <<  << ": Arrggh!" << endl;
+cout <<  << ": Ouch!" << endl;
+// Agent::describe output
+cout <<  << " at " <<  << endl;
+cout << "   Health is " <<  << endl;
+cout << "   Moving at speed " <<  << " to " <<  << endl;
+cout << "   Stopped" << endl;
+cout << "   Is dying" << endl;
+cout << "   Is dead" << endl;
+cout << "   Is disappearing" << endl; // not expected to be visible in this project
+
+// strings used in Error objects thrown by Agent
+ + ": Sorry, I can't work!"
+ + ": Sorry, I can't attack!"
+
+
+// Peasant output
+cout << "Peasant " <<  << " constructed" << endl;
+cout << "Peasant " <<  << " destructed" << endl;
+// Peasant::update output
+cout <<  << ": Collected " <<  << endl;
+cout <<  << ": Waiting " << endl;
+cout <<  << ": Deposited " <<  << endl;
+// Peasant::stop and move_to output
+cout <<  << ": I'm stopping work" << endl;
+
+
+// Peasant::describe output
+cout << "Peasant ";
+cout << "   Carrying " <<  << endl;
+cout << "   Outbound to destination " <<  << endl;
+cout << "   Inbound to source " <<  << endl;
+cout << "   Collecting at source " <<  << endl;
+cout << "   Depositing at destination " <<  << endl;
+
+// strings used in Error objects thrown by Peasant::start_working
+ + ": I can't move food to and from the same place!"
+
+// Soldier output
+cout << "Soldier " <<  << " constructed" << endl;
+cout << "Soldier " <<  << " destructed" << endl;
+// Soldier::start_attacking and take_hit output
+cout <<  << ": I'm attacking!" << endl;
+// Soldier::update output
+cout <<  << ": Target is dead" << endl;
+cout <<  << ": Target is now out of range" << endl;
+cout <<  << ": Clang!" << endl;
+cout <<  << ": I triumph!" << endl;
+// Soldier::stop output
+cout << << ": Don't bother me" << endl;
+// Soldier::describe output
+cout << "Soldier ";
+cout << "   Attacking " <<  << endl;
+cout << "   Not attacking" << endl;
+
+// strings used in Error objects thrown by Soldier::start_attacking
+ + ": I cannot attack myself!"
+ + ": Target is out of range!"
+ + ": Target is not alive!"
+
+// View output
+cout << "View constructed" << endl;
+cout << "Display size: " <<  << ", scale: " <<  << ", origin: " <<  << endl;
+// use for the list of object names that are outside the map:
+cout << ", "; // output before all names except the first
+cout << " outside the map" << endl;
+// use for labels on y axis
+cout << setw(4) << <y axis label value here> << " ";
+cout << "     ";
+// use for labels on x axis
+cout << "  " << setw(4) << <x axis label value here>;
+cout << "View destructed" << endl;
+
+// strings used in Error objects thrown by View
+"New map size is too big!"
+"New map size is too small!"
+"New map scale must be positive!"

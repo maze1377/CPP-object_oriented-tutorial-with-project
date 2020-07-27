@@ -1,0 +1,69 @@
+open map
+show
+Merry work Pippin Paduca
+Merry attack Pippin
+Merry work Shire Shire
+Merry work Shire Paduca
+Merry stop
+Merry work Shire Paduca
+go go
+Pippin work Rivendale Shire
+go
+status
+go go status
+show
+go status
+go
+status
+go status
+go
+status
+go
+show
+go go go go show
+Bug move 20 20
+go
+open Bug
+close map
+show
+Bug attack Pippin
+go
+show
+go
+show
+status
+go
+show
+Bug attack Pippin
+go
+show
+go go go
+show
+go Bug attack Pippin
+show
+go
+show
+status
+go
+show
+status
+close Bug
+open map
+show
+train Merry Soldier 10 10
+train Merry Grenadier 10 10
+train Harry Grenadier 10 10
+build Harry Grenadier 10 10
+train Harry Peasant 10 10
+open amounts
+show
+build Paduca Town_Hall 25 25
+build Paduca Castle 25 25
+build Camelot Castle 25x 25 
+build Camelot Town_Hall x25 25
+build Camelot Town_Hall 25 25
+Harry work Camelot Paduca
+go
+status
+show
+quit
