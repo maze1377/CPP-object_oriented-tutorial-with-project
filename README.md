@@ -15,31 +15,53 @@ C++ OOB (object_oriented) tutorial with project
 ## Purpose ##
 
 • Working with a set of classes that have clearly defined roles and responsibilities, such as a simple form of the Model-ViewController pattern.
+
 • Working with a class hierarchy in which inheritance helps re-use code.
+
 • Using virtual functions to achieve polymorphic behavior.
+
 • Observing the order of construction and destruction in a class hierarchy.
+
 • Using abstract base classes to specify the interface to derived classes.
+
 • Using a "fat interface" to control derived class objects polymorphically.
+
 • Using separate containers of derived-class pointers to distinguish object types.
+
 • Calling base class functions from derived class functions to re-use code within the class hierarchy.
+
 • Using mixin multiple inheritances to take advantage of a pre-existing base class.
+
 • Using private inheritance to demonstrate re-use of implementation rather than an interface.
+
 • Making header files as simple as possible to avoid unnecessary coupling.
+
 • Using a simple form of Factory to further reduce coupling.
+
+
 Also, you will practice some additional programming techniques:
+
 • Working with objects that have state and state changes.
+
 • Using exceptions for user input errors to simplify the program structure, using std::exception as a base exception class.
+
 • Further use of the Standard Library to simplify coding.
+
 Finally, certain aspects of the coding may be new to you, although they are ancient and traditional issues:
+
 • Using floating point numbers and dealing with some of the representational issues. For example, comparisons for equality are
 usually unreliable.
+
 • Using a 3-dimensional array-type data structure.
 
 # The author advises you
 
 • before reading the answer to it by yourself
+
 • search in google for example for the part of you don't know and try to learn by example
+
 • for check your answer add a new feature to project and see Add features by adding code, not by changing code is possible or not
+
 • share your answer by other people and ask them to help you
 
 ### the command you have to support is :
