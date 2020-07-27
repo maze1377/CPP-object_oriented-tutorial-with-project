@@ -1,4 +1,4 @@
-C++ OOB (object_oriented) tutorial with project
+﻿C++ OOB (object_oriented) tutorial with project
 ==============
 
 ## How to use ##
@@ -121,6 +121,10 @@ usually unreliable.
  -10 . . . . . . . . . . . . . . . . . . . . . . . . .
    -10    -4     2     8    14    20    26    32    38
 ```
+# contributors
+| id_github | work |
+| --- | --- |
+|fbghkh1999|added new Agent (Archer) to project |
 
 # last word
 
